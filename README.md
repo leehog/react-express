@@ -1,5 +1,5 @@
 # Time and billing
-  boilerplate for time and billing applications backend
+  boilerplate for hotreloading and es6 in express
 
 ## Includes
 
