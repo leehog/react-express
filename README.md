@@ -1,5 +1,5 @@
-# Time and billing
-  boilerplate for hotreloading and es6 in express
+# Boilerplate for hotreloading and es6 in express
+  
 
 ## Includes
 
@@ -10,13 +10,13 @@
 
 ## How to use
 
-npm install
+# - npm install
 
 # dev
-npm run dev
+# - npm run dev
 
 # build
-npm run build
+# - npm run build
 
 # build & start
-npm start
+# - npm start
