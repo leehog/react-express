@@ -1,10 +1,8 @@
 {
   "name": "timeandbilling",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
-  "repository": "",
-  "license": "",
+  "author": "Leo",
+  "repository": "https://github.com/leehog/hotreload-and-es6-express",
   "private": false,
   "scripts": {
     "clean": "rm -rf dist && mkdir dist && webpack",

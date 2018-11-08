@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', (req, res) => {
   res.send({
-    message: 'server is hot!'
+    message: 'server is very hot!'
   })
 })
 

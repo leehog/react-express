@@ -1,14 +1,14 @@
 # Time and billing
+  boilerplate for time and billing applications backend
 
 ## Includes
 
 - Webpack 3
-- Babel (ES6, babel-preset-env)
-- Hot-Reload
-- ESLint w/ Standard
+- Babel
+- ESLint
 - Express
 
-## Usage
+## How to use
 
 ```bash
 
@@ -22,7 +22,3 @@ npm run build
 
 # build & start
 npm start
-
-# test
-npm run unit
-```
