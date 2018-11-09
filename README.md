@@ -14,3 +14,7 @@
 - npm run dev
 - npm run build
 - npm start
+
+## Kill process on port
+
+- kill $(lsof -t -i :5000)
