@@ -3,7 +3,6 @@ import Test from '../models/test.model'
 const controller = {}
 
 controller.addTest = async (req, res) => {
-    console.log(req.body.title)
     
     let newTest = Test({
         title: req.body.title
