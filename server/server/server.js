@@ -19,14 +19,28 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
+// Enable cors for file upload
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+  if (req.method === "OPTIONS") {
+    res.header("Access-Control-Allow-Methods", "PUT, POST, PATCH, DELETE, GET");
+    return res.status(200).json({});
+  }
+  next();
+});
+
 //Api routes, add test att localhost:5000/api/test/addTest
 app.use('/api/test', testRoute)
 
 // Base routes
 app.get('/', (req, res) => {
-  res.send({
-    message: 'server is very hot!'
-  })
+  res.json(
+    'server is very hot!'
+  )
 })
 
 const port = process.env.PORT || 5000
