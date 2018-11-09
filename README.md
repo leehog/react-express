@@ -10,13 +10,7 @@
 
 ## How to use
 
-# - npm install
-
-# dev
-# - npm run dev
-
-# build
-# - npm run build
-
-# build & start
-# - npm start
+- npm install
+- npm run dev
+- npm run build
+- npm start
